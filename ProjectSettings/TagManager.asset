@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Equipment
+  - ToolDesk
+  - ARMesh
+  - GhostInteraction
+  - Waypoint
+  - GhostEntity
+  - CursedItem
+  - Photo
+  - Media
+  - GameManager
+  - GhostEffects
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ARDK_MockWorld
+  - GhostInteraction
+  - ARMesh
+  - ToolDesk
+  - Equipment
+  - GhostEntity
+  - DetectionShape
+  - PhotoOnly
+  - Bloom
+  - Photo
+  - GhostOrbMainOnly
+  - GhostOrbLiveOnly
+  - DetectionShapeMainOnly
+  - DetectionShapeLiveOnly
+  - Silhouette
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - XR Simulation
+  - 
+  m_SortingLayers:
+  - name: Top
+    uniqueID: 3281320093
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
