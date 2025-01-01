@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5513698062913787296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5513698062913787297}
+  - component: {fileID: -8590500352889534487}
+  - component: {fileID: 2967140113947936940}
+  m_Layer: 11
+  m_Name: GhostEntity
+  m_TagString: GhostEntity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5513698062913787297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513698062913787296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.916979, y: -0.1, z: -0.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8590500352889534487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513698062913787296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2471935ca4e974c9a55fc35250b3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  started: 0
+  speed: 0
+  myWay: []
+  myPath: []
+  minCheck: 1
+  maxCheck: 10
+  moonAmt: 0
+  changeProbability: 50
+  moonChangeAdd: 100
+  appearProbability: 10
+  moonAppearAdd: 20
+  smackProbability: 5
+  moonSmackAdd: 10
+  printProbability: 5
+  moonPrintAdd: 10
+  effectProbability: 5
+  moonEffectAdd: 10
+  gone: 0
+  doing: 
+  myMaterials:
+  - {fileID: 2100000, guid: 5a5cee440c7ad6343844993fe399192d, type: 2}
+  - {fileID: 2100000, guid: 52280aa65b149504b816b5f41a81d40b, type: 2}
+  - {fileID: 2100000, guid: 3a1b7aeca3904cb43b6d76dfcaa72737, type: 2}
+  - {fileID: 2100000, guid: 03247a6f2ad3dd84cb47cf1528162a67, type: 2}
+  soundGhast: {fileID: 2476703796236079144, guid: e9591c3bd9f300c45a42666da56a9c28, type: 3}
+  effectPrefab: {fileID: 3157530286131993018, guid: ef3c50195c4607644a7940f2405b269c, type: 3}
+  ghostPrefabs:
+  - {fileID: 7683107944790433999, guid: 222b84f2db554f44fb03fb7eafcb9cce, type: 3}
+  - {fileID: 7683107944790433999, guid: 97d8847d5ab12b240b0163543e9d2e81, type: 3}
+  - {fileID: 7683107944790433999, guid: 224de11a92020c249bcf15d83597ceef, type: 3}
+  - {fileID: 7683107944790433999, guid: 3a914fab7696ad540b8e9037e379dec5, type: 3}
+  animatorScript: {fileID: 0}
+  staticPhotoOnly: 0
+  crouchAmt: 0
+  myGhostType: 0
+  testingGhost: 3
+--- !u!136 &2967140113947936940
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513698062913787296}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}

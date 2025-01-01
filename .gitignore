@@ -59,7 +59,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -71,3 +70,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#Ignore all .meta file
+*.meta
+#But not source file with postfix. which is everything but a folder
+!*.*.meta
+
+#ARDK keys
+/Assets/Resources/Ardk/ArdkAuthConfig.asset
+/Assets/XR/Settings/Lightship Settings.asset
+
+#Scripts with keys
+/Assets/Scripts/UI/Ads.cs
+/Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+/Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml
+/Assets/StreamingAssets/google-services-desktop.json
